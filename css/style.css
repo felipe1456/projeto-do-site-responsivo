@@ -15,13 +15,14 @@
 
 body{
     margin: 0;
+    height: 100%;
 }
 
 #header{
     background-color:#33454e ;
     padding: 40px 0px 100px 0;
     font-family: 'bold';
-    height: 50px;
+    height: 45px;
     line-height: 110px;
 }
 
@@ -54,17 +55,19 @@ body{
     color: #4d4c4c;
 }
 
-#sobre-mim{
+#eu{
     background-color: #d1cbc0 ;
+    height: 1500px;
+
 }
 
-#sobre-mim h2{
+#eu h2{
     text-align: center;
     margin-top: 15px;
     font-family: 'slogan';
 }
 
-#sobre-mim img{
+#eu img{
     border: 5px outset #eae2cf ;
     border-radius: 50%;
     width: 150px;
@@ -74,21 +77,23 @@ body{
     
 }
 
-#sobre-mim p{
+#eu p{
     text-align: center;
     font-size: 20px;
     padding-left: 8px;
     padding-top: 30px;
     font-family: 'regular';
-
+    
 }
 
+
 #footer{
-    padding-top: 12px;
+    width: 100%;
     background-color: #585d5d;
-    padding-left: 15px;
-    min-height: 100px;
+    left: 0;
+    bottom: 0;
     color: white;
+    position: absolute;
 }
 
 #footer span{
@@ -147,22 +152,22 @@ font-family: 'bold';
         padding-left: 7px;
     }
 
-    #sobre-mim{
+    #eu{
         width: 90%;
         margin: 35px;
         padding-bottom: 0;
         height: 200%;
     }
 
-    #sobre-mim p{
+    #eu p{
         font-size: 17px;
     }
 
-    #sobre-mim h2{
+    #eu h2{
         margin-top: 21px;
     }
 
-    #sobre-mim img{
+    #eu img{
         width: 150px;
         height: 150px;
         display: block;
